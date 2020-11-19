@@ -144,6 +144,8 @@ section#home{
 .home-container .home-text{
     padding: 30px;
     text-align: center;
+    border-right: 1px solid #cccccc;
+    border-radius: 0% 50% 50% 0%;
 }
 .home-container h1{
     font-size: 50px;
