@@ -157,6 +157,13 @@ section#home{
     background-color: #0779e4;
     border: 2px solid #0779e4;
     border-radius: 20px;
+    transition: 0.6s;
+}
+
+.home-container button:hover{
+    color: #0779e4;
+    background-color: #fbf6f0;
+    border-color: #0779e4;
 }
 
 .home-container img{
