@@ -151,3 +151,19 @@ section#home{
     width: 700px;
     height: 650px;
 }
+
+@media (max-width: 768px){
+    .home-container{
+        flex-direction: column;
+    }
+    .home-container .home-text{
+        order: 2;
+    }
+    .home-container h1{
+        font-size: 40px;
+    }
+    .home-container img{
+        width: 400px;
+        height: 400px;
+    }
+}
