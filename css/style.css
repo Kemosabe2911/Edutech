@@ -139,6 +139,13 @@ section#home{
     align-items: center;
     justify-content: space-around;
 }
+.home-container .home-text{
+    padding: 30px;
+    text-align: center;
+}
+.home-container h1{
+    font-size: 50px;
+}
 
 .home-container img{
     width: 700px;
