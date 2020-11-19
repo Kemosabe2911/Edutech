@@ -129,8 +129,18 @@ nav #icon{
     }
 }
 
-section{
+section#home{
     background: #ffffff;
     background-size: cover;    
     height: calc(100vh- 80px);
+}
+.home-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.home-container img{
+    width: 700px;
+    height: 650px;
 }
