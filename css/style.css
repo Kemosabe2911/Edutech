@@ -7,13 +7,13 @@
 nav{
     height: 80px;
     width: 100%;
-    background: #ffffff;
+    background: #fbf6f0;
 }
 
 label.logo{
     font-size: 32px;
     font-weight: bold;
-    color: blue;
+    color:#0779e4;
     padding: 0 100px;
     line-height: 80px;
 }
@@ -30,14 +30,58 @@ nav ul li{
 }
 
 nav ul a{
-    color: blue;
+    color: #0779e4;
     font-size: 18px;
+    font-weight: 700;
     text-decoration: none;
     padding: 7px 10px;
     border-bottom: 2px solid transparent;
 }
 
 nav ul a.active, a:hover{
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid #0779e4;
     transition: 0.5s;
+}
+
+nav #icon{
+    float: right;
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+}
+
+.bars{
+    background: #0779e4 ;
+    display: inline-block;
+    height: 3.5px;
+    position: relative;
+    width: 22px;
+    transition: 0.5s;
+}
+.bars::before,.bars::after{
+    background: #0779e4;
+    content: '';
+    display: inline-block;
+    height: 3.5px;
+    position: absolute;
+    width: 22px;
+    transition: 0.5s;
+}
+.bars::before{
+    top: 6px;
+}
+.bars::after{
+    top: -6px;
+}
+
+#icon.close .bars{
+    background: rgba(0, 0, 0, 0);
+}
+#icon.close .bars::before{
+    top: 0;
+    transform: rotate(45deg);
+}
+#icon.close .bars::after{
+    top: 0;
+    transform: rotate(135deg);
 }
