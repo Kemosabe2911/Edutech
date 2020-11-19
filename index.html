@@ -8,6 +8,7 @@
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -39,9 +40,15 @@
         <h1>Sessions with Teachers</h1>
         <span class="line"></span>
         <div class="service-container">
+        <div data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
             <div class="serv-imag">
                 <img src="images/online-5368573_1280.png">
             </div>
+        </div>
+        <div data-aos="fade-up" data-aos-offset="0" data-aos-delay="300"
+        data-aos-anchor-placement="center-bottom">
             <div class="serv-content">
                 <div class="serv-text">
                     <img src="images/video-tutorials.png">
@@ -53,7 +60,12 @@
                 </div>
             </div>
         </div>
+        </div>
     </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     <script src="js/jquery.js"></script>
 </body>
 </html>
