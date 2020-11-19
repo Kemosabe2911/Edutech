@@ -10,7 +10,7 @@
 nav{
     height: 80px;
     width: 100%;
-    background: #fbf6f0;
+    background: #ffffff;
     font-family: 'Lato', sans-serif;
     position: sticky;
     top: 0;
@@ -116,7 +116,7 @@ nav #icon{
         top: 80px;
         left: -100vw;
         text-align: center;
-        background: #fbf6f0;
+        background: #ffffff;
         transition: all 0.5s;
     }
     nav ul li{
@@ -168,7 +168,7 @@ section#home{
 
 .home-container button:hover{
     color: #0779e4;
-    background-color: #fbf6f0;
+    background-color: #ffffff;
     border-color: #0779e4;
 }
 
@@ -220,6 +220,6 @@ section#service{
 }
 
 .service-container img{
-    width: 900px;
-    height: 650px;
+    width: 700px;
+    height: 450px;
 }
