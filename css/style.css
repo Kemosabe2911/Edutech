@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +10,7 @@ nav{
     height: 80px;
     width: 100%;
     background: #fbf6f0;
+    font-family: 'Lato', sans-serif;
 }
 
 label.logo{
