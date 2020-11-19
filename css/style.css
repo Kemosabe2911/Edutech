@@ -121,6 +121,6 @@ nav #icon{
         color: #000000;
     }
     nav ul.show{
-        left: 0;
+        bottom: 0;
     }
 }
