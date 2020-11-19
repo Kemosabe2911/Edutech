@@ -243,9 +243,16 @@ section#service{
     font-family: 'Poppins', sans-serif;
 }
 
+.service-container .serv-content .serv-text h2{
+    padding: 0px 10px;
+}
+
 @media (max-width: 768px){
     .service-container{
         flex-direction: column;
+    }
+    #service h1{
+        font-size: 35px;
     }
     .service-container .serv-imag img{
         width: 500px;
@@ -255,5 +262,8 @@ section#service{
     .service-container .serv-content .serv-text{
         flex-direction: column;
         width: 400px;
+    }
+    .service-container .serv-content h2{
+        font-size: 22px;
     }
 }
