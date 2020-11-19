@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 *{
     margin: 0;
@@ -143,6 +144,7 @@ section#home{
 }
 .home-container .home-text{
     padding: 30px;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     border-right: 1px solid #cccccc;
     border-radius: 0% 50% 50% 0%;
@@ -154,6 +156,7 @@ section#home{
 .home-container button{
     margin: 20px;
     font-size: 18px;
+    font-family: 'Poppins', sans-serif;
     padding: 10px 25px;
     color: #ffffff;
     background-color: #0779e4;
