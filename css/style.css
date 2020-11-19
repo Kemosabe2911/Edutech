@@ -223,3 +223,18 @@ section#service{
     width: 700px;
     height: 450px;
 }
+.service-container .serv-content img{
+    width: 80px;
+    height: 80px;
+}
+
+.service-container .serv-content .serv-text{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 600px;
+    text-align: center;
+    color: #0779e4;
+    font-family: 'Poppins', sans-serif;
+}
