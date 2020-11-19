@@ -41,7 +41,7 @@ nav ul a{
     border-bottom: 2px solid transparent;
 }
 
-nav ul a.active, a:hover{
+nav ul a:hover{
     border-bottom: 2px solid #0779e4;
     transition: 0.5s;
 }
@@ -118,9 +118,9 @@ nav #icon{
         margin: 50px 0;
         line-height: 30px;
     }
-    nav ul a.active, a:hover{
+    nav ul a:hover{
         border: none;
-        color: #000000;
+        color: #892cdc;
     }
     nav ul.show{
         left: 0;
