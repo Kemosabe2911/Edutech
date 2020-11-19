@@ -90,6 +90,8 @@ nav #icon{
     transform: rotate(135deg);
 }
 
+
+
 @media (max-width: 1068px){
     label.logo{
         padding-left: 60px;
@@ -125,4 +127,10 @@ nav #icon{
     nav ul.show{
         left: 0;
     }
+}
+
+section{
+    background: #ffffff;
+    background-size: cover;    
+    height: calc(100vh- 80px);
 }
