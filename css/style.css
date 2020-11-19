@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 
 *{
     margin: 0;
@@ -285,6 +286,7 @@ section#sub{
     align-items: left;
     justify-content: left;
     flex-direction: column;
+    font-family: 'Cabin', sans-serif;
 }
 .sub-container img{
     width: 300px;
@@ -297,10 +299,10 @@ section#sub{
     color: #ffffff;
 }
 .sub-container p{
-    padding: 5px 10px 15px 10px;
+    padding: 0px 10px 15px 10px;
     line-height: 1.1;
     color: #ffffff;
-    font: 16px;
+    font: 17px;
 }
 
 @media(max-width: 768px){
