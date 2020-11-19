@@ -120,4 +120,7 @@ nav #icon{
         border: none;
         color: #000000;
     }
+    nav ul.show{
+        left: 0;
+    }
 }
