@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 nav{
     height: 80px;
     width: 100%;
@@ -237,4 +241,19 @@ section#service{
     text-align: center;
     color: #0779e4;
     font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 768px){
+    .service-container{
+        flex-direction: column;
+    }
+    .service-container .serv-imag img{
+        width: 500px;
+        height: 300px;
+        margin-left: 100px;
+    }
+    .service-container .serv-content .serv-text{
+        flex-direction: column;
+        width: 400px;
+    }
 }
