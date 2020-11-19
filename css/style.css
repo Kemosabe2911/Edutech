@@ -10,6 +10,34 @@ nav{
     background: #ffffff;
 }
 
+label.logo{
+    font-size: 32px;
+    font-weight: bold;
+    color: blue;
+    padding: 0 100px;
+    line-height: 80px;
+}
+
 nav ul{
+    float: right;
     list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+    line-height: 80px;
+}
+
+nav ul a{
+    color: blue;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 7px 10px;
+    border-bottom: 2px solid transparent;
+}
+
+nav ul a.active, a:hover{
+    border-bottom: 2px solid blue;
+    transition: 0.5s;
 }
