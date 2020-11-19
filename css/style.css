@@ -193,7 +193,33 @@ section#home{
     }
 }
 
-:root {
-    --animate-duration: 800ms;
-    --animate-delay: 0.9s;
-  }
+section#service{
+    height: calc(100vh - 80px);
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+}
+
+.service-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#service h1{
+    padding: 10px;
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+    color: #0779e4;
+}
+
+#service span{
+    display: inline-block;
+    width: 150px;
+    height: 1px;
+    border: 1px solid #0779e4;
+}
+
+.service-container img{
+    width: 900px;
+    height: 650px;
+}
