@@ -14,6 +14,7 @@ nav{
     font-family: 'Lato', sans-serif;
     position: sticky;
     top: 0;
+    z-index: 999;
 }
 
 label.logo{
@@ -184,7 +185,7 @@ section#home{
         order: 2;
     }
     .home-container h1{
-        font-size: 40px;
+        font-size: 35px;
     }
     .home-container img{
         width: 400px;
