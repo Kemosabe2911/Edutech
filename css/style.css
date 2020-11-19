@@ -198,7 +198,6 @@ section#home{
 }
 
 section#service{
-    height: calc(100vh - 80px);
     width: 100%;
     text-align: center;
     padding: 50px;
@@ -266,4 +265,9 @@ section#service{
     .service-container .serv-content h2{
         font-size: 22px;
     }
+}
+
+section#sub{
+    height: 80vh;
+    background: #0779e4;
 }
