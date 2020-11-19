@@ -11,6 +11,8 @@ nav{
     width: 100%;
     background: #fbf6f0;
     font-family: 'Lato', sans-serif;
+    position: sticky;
+    top: 0;
 }
 
 label.logo{
@@ -151,6 +153,10 @@ section#home{
     margin: 20px;
     font-size: 18px;
     padding: 10px 25px;
+    color: #ffffff;
+    background-color: #0779e4;
+    border: 2px solid #0779e4;
+    border-radius: 20px;
 }
 
 .home-container img{
