@@ -609,3 +609,23 @@ footer{
     color: #0779e4;
     background-color: #ffffff;
 }
+.footer-container .social{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 50px 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-container .social i{
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 18px;
+    color: #0779e4;
+    background-color: #ffffff;
+    transition: 0.5s;
+}
+.footer-container .social i:hover{
+    color: #ffffff;
+    background-color: #0779e4;
+}
