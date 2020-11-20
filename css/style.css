@@ -549,3 +549,63 @@ section#sub{
       line-height: 1.5;
       font-size: 16px;
   }
+
+  /*Footer*/
+footer{
+    background-color: #0779e4;
+    width: 100%;
+} 
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-container .box{
+    width: 33%;
+    padding: 20px;
+    text-align: justify;
+    color: #ffffff;
+    line-height: 1.5;
+}
+.footer-container .box h2{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.footer-container ul{
+    list-style: none;
+    text-align: center;
+    line-height: 1.5;
+}
+.footer-container ul a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer-container form{
+    display: flex;
+    flex-direction: column;
+}
+.footer-container form label{
+    padding: 5px;
+    font-size: 18px;
+}
+.footer-container form input,textarea{
+    margin: 5px 30px;
+}
+.footer-container form input{
+    height: 30px;
+}
+.footer-container button{
+    color: #ffffff;
+    margin: 10px 30px;
+    height: 30px;
+    font-size: 16px;
+    background-color: #0779e4;
+    border: 2px solid #ffffff;
+    transition: 0.3s;
+}
+.footer-container button:hover{
+    color: #0779e4;
+    background-color: #ffffff;
+}
