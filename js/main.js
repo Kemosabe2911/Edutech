@@ -1,8 +1,13 @@
 anime({
     targets: '.line',
-    translateY: 150,
-    delay: 1000,
-    duration: 2000,
+    keyframes:
+    [
+      {translateX: 150},
+      {translateX: -300},
+      {translateX: 150}
+    ],
+    delay: 500,
+    duration: 1000,
     loop: true,
     direction: 'alternate'
 })
