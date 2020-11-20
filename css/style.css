@@ -371,9 +371,27 @@ section#sub{
 }
 .swiper-container {
     width: 80vw;
-    height: 300px;
+    height: 500px;
 }
 .swiper-container .swiper-slide{
     width: 100%;
     padding: 50px;
+}
+
+.teachers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.teachers .t-card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.teachers .t-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
