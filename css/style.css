@@ -416,9 +416,10 @@ section#sub{
     font-family: 'Merriweather', serif;
 }
 .teachers .t-card p{
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Assistant', sans-serif;
-    color: #52057b;
+    color: #000000;
+    font-weight: bold;
     padding: 10px;
     word-break: break-all;
 }
@@ -431,6 +432,6 @@ section#sub{
         font-size: 26px;
     }
     .teachers .t-card p{
-        font-size: 16px;
+        font-size: 18px;
     }
 }
