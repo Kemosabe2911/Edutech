@@ -315,3 +315,10 @@ section#sub{
         margin: 20px 0px;
     }
 }
+
+.square{
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+    background-color: #ffffff;
+}
