@@ -1,6 +1,6 @@
 anime({
     targets: '.line',
-    translateY: 250,
+    translateY: 150,
     delay: 1000,
     duration: 2000,
     loop: true,

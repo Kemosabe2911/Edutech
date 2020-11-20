@@ -316,6 +316,15 @@ section#sub{
     }
 }
 
+.animation{
+    background-color: #0779e4;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .square{
     width: 20px;
     height: 20px;
@@ -330,5 +339,24 @@ section#sub{
     width: 100%;
     padding: 20px 100px;
     background-color: #0779e4;
-    height: 400px;
+    text-align: center;
+}
+.work h1{
+    color: #ffffff;
+    font-size: 40px;
+}
+.work .work-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff;
+    align-items: center;
+}
+.work .work-content .work-text{
+    padding: 30px;
+}
+.work .work-content img{
+    width: 100px;
+    height: 100px;
+    margin: 20px 0px;
 }
