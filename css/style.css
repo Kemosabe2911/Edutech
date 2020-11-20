@@ -377,6 +377,13 @@ section#sub{
     width: 100%;
     padding: 50px;
 }
+.swiper h1{
+    text-align: center;
+    font-size: 40px;
+    color: #0779e4;
+    text-transform: uppercase;
+    text-shadow: #52057b;
+}
 
 .teachers{
     display: flex;
@@ -387,11 +394,40 @@ section#sub{
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    transition: 0.5s;
 }
+
+.teachers .t-card img:hover{
+    border: 5px solid #0779e4;
+}
+
 .teachers .t-card{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
+}
+.teachers .t-card h1{
+    font-size: 35px;
+    color: #0779e4;
+    padding: 20px;
+}
+.teachers .t-card p{
+    font-size: 18px;
+    color: #52057b;
+    padding: 10px;
+    word-break: break-all;
+}
+
+@media(max-width: 768px){
+    .swiper h1{
+        font-size: 32px;
+    }
+    .teachers .t-card h1{
+        font-size: 26px;
+    }
+    .teachers .t-card p{
+        font-size: 16px;
+    }
 }
