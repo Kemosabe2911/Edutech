@@ -611,16 +611,18 @@ footer{
 }
 .footer-container button{
     color: #0779e4;
+    font-family: 'Noto Sans SC', sans-serif;
     margin: 10px 30px;
-    height: 30px;
+    height: 40px;
     font-size: 16px;
     background-color: #ffffff;
-    border: 2px solid #ffffff;
-    transition: 0.3s;
+    border: 2px solid #0779e4;
+    transition: 0.8s;
 }
 .footer-container button:hover{
-    color: #0779e4;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #0779e4;
+    border-color: #ffffff;
 }
 .footer-container .social{
     display: flex;
