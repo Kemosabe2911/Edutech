@@ -604,11 +604,11 @@ footer{
     height: 30px;
 }
 .footer-container button{
-    color: #ffffff;
+    color: #0779e4;
     margin: 10px 30px;
     height: 30px;
     font-size: 16px;
-    background-color: #0779e4;
+    background-color: #ffffff;
     border: 2px solid #ffffff;
     transition: 0.3s;
 }
@@ -635,4 +635,10 @@ footer{
 .footer-container .social i:hover{
     color: #ffffff;
     background-color: #0779e4;
+}
+@media (max-width: 768px){
+    .footer-container{flex-direction: column;}
+    .footer-container .box{
+        width: 100%;
+    }
 }
