@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
 
 *{
     margin: 0;
@@ -338,12 +339,13 @@ section#sub{
 .work{
     width: 100%;
     padding: 20px 100px;
-    background-color: #0779e4;
+    background: linear-gradient(#0779e4,#ffffff);
     text-align: center;
 }
 .work h1{
     color: #ffffff;
     font-size: 40px;
+    font-family: 'Oswald', sans-serif;
 }
 .work .work-content{
     display: flex;
@@ -354,6 +356,9 @@ section#sub{
 }
 .work .work-content .work-text{
     padding: 30px;
+    font-size: 20px;
+    color: #52057b;
+    font-family: 'Oswald', sans-serif;
 }
 .work .work-content img{
     width: 100px;
