@@ -322,7 +322,13 @@ section#sub{
     margin: 2px;
     background-color: #ffffff;
 }
+.line{
+    display: flex;
+    align-items: center;
+}
 .work{
-    height: 100vh;
     width: 100%;
+    padding: 20px 100px;
+    background-color: #0779e4;
+    height: 400px;
 }
