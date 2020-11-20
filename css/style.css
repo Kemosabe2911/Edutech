@@ -394,14 +394,10 @@ section#sub{
     align-items: center;
 }
 .teachers .t-card img{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     transition: 0.5s;
-}
-
-.teachers .t-card img:hover{
-    border: 5px solid #0779e4;
 }
 
 .teachers .t-card{
