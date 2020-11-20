@@ -499,6 +499,13 @@ section#sub{
     padding: 30px 0px 50px 0px;
 }
 
+.faq-section h1{
+    font-size: 38px;
+    text-align: center;
+    padding: 30px;
+    color: #0779e4;
+}
+
 .accordion {
     background-color: #0779e4;
     color: #ffffff;
