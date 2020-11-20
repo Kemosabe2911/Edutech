@@ -365,3 +365,15 @@ section#sub{
     height: 100px;
     margin: 20px 0px;
 }
+.swiper{
+    background-color: #ffffff;
+    padding: 100px 50px;
+}
+.swiper-container {
+    width: 80vw;
+    height: 300px;
+}
+.swiper-container .swiper-slide{
+    width: 100%;
+    padding: 50px;
+}
