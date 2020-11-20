@@ -578,9 +578,16 @@ footer{
     text-align: center;
     line-height: 1.5;
 }
+.footer-container ul li{
+    padding: 10px 0px;
+}
 .footer-container ul a{
     text-decoration: none;
     color: #ffffff;
+    transition: 0.5s;
+}
+.footer-container ul a:hover{
+    color: #000000;
 }
 .footer-container form{
     display: flex;
