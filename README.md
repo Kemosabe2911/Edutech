@@ -1,3 +1,3 @@
 # Edutech
 
-##Home Page of an Educational Website
+`Home Page of an Educational Website`
