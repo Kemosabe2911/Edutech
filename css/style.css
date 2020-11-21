@@ -436,6 +436,10 @@ section#sub{
     .teachers .t-card p{
         font-size: 18px;
     }
+    .work .work-content .work-text{
+        font-size: 16px;
+        padding: 10px 0px;
+    }
 }
 
 .course-section{
@@ -605,6 +609,8 @@ footer{
 }
 .footer-container form input,textarea{
     margin: 5px 30px;
+    padding: 10px;
+    font-size: 14px;
 }
 .footer-container form input{
     height: 30px;
